@@ -1139,3 +1139,90 @@ a {
   width: 24px;
   background-color: #ff5b2e;
 }
+
+/* blog */
+.blog {
+  padding-bottom: 131px;
+}
+
+.blog__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blog__top-wrap {
+  margin-left: auto;
+}
+
+.blog__desc {
+  width: 350px;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.875;
+  color: #656689;
+}
+
+.blog__item-desc {
+  margin-top: 16px;
+  font-size: 1.4rem;
+  line-height: 1.875;
+  color: #656689;
+}
+
+.blog__btn {
+  margin-top: 24px;
+  border: 1px solid #ff5b2e;
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+  min-width: 182px;
+  color: #ff5b2e;
+}
+
+.blog__list {
+  display: flex;
+  column-gap: 48px;
+  margin-top: 54px;
+}
+
+.blog__item {
+  width: 358px;
+}
+
+.blog__item-title {
+  font-family: Sora, sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.21;
+  color: #ffffff;
+}
+
+.blog__item-media {
+  background: #90ccff;
+  border-radius: 24px;
+  padding: 24px 0 0 36px;
+}
+
+.blog__item:nth-child(2) .blog__item-media {
+  background: #ff997e;
+}
+
+.blog__item:nth-child(3) .blog__item-media {
+  background: #5bd6e2;
+}
+
+.blog__img {
+  display: block;
+  margin-top: 25px;
+  width: 100%;
+  height: 296px;
+  object-fit: cover;
+}
+
+.blog__heading {
+  margin-top: 28px;
+  font-family: "Sora";
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 1.55;
+  color: #000958;
+}
